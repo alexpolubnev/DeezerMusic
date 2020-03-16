@@ -1,0 +1,201 @@
+html {
+  margin: 0px 0px 50px;
+}
+body {
+  background: url(../images/html.jpg);
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.hello {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-artist {
+  height: 500px;
+  width: 500px;
+  margin: 20px auto;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px 200px;
+  margin-bottom: 30px;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100px;
+}
+.header ul li {
+  margin: 0px 20px;
+}
+.login {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 30px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #007bff;
+  font-size: 20px;
+  background-color: #fff;
+}
+.login .login-button:hover {
+  box-shadow: 0 0 15px #007bff;
+}
+
+.login-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.login-div label {
+  margin-bottom: 0px;
+}
+.content-input {
+  flex: 0 0 70%;
+  position: relative;
+  border: 2px solid #007bff;
+  border-radius: 25px;
+  padding: 0px 15px;
+  font-size: 16px;
+  height: 40px;
+}
+.content-input:focus {
+  box-shadow: 0 0 15px #007bff;
+}
+.login-button{
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto 0px;
+  font-size: 16px;
+}
+.search-form-input {
+  margin: 0px 15px;
+  border: 2px solid #007bff;
+  border-radius: 25px;
+  padding: 0px 15px;
+  font-size: 16px;
+  height: 40px;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+.content-type{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px -10px;
+}
+.column {
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 10px;
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid #007bff;
+  color: #000;
+  background: url(../images/bg.jpeg);
+}
+.column:hover {
+  box-shadow: 0 0 25px #007bff;
+}
+.column-title {
+  font-size: 20px;
+}
+.column a{
+  color: #007bff;
+}
+
+.column a:hover{
+  text-decoration: none;
+  text-shadow: 0 0 25px #007bff;
+  color: black;
+}
+.column-play a{
+  color: red;
+}
+.search {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px white;
+}
+.prev, .next {
+  display: inline-block;
+  font-size: 30px;
+  color: black;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+.prev:hover, .next:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+}
+.next {
+  float: right;
+}
+.trackID, .albumID, .artistID {
+  visibility: hidden;
+}
+.comlite {
+  color: green;
+}
+
+
+* { /* reset margins and paddings on all elements */
+	margin:0;
+	padding:0;
+}
+
+body::before {
+		content:""; /* required for ::before */
+		position:fixed; /* don't scroll with page */
+		z-index:-100; /* place behind elements on page */
+		width:100%;
+		height:100%;
+		background-color:#14C2CC;
+		background-image: 
+		radial-gradient(circle farthest-side at top right, transparent, #0D64FF), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #FF00A0);
+		animation:bg-change 10s infinite;
+}
+
+@keyframes bg-change {
+	0%, 100% {
+		filter:hue-rotate(0deg);
+	}
+	50% {
+		filter:hue-rotate(-70deg);
+	}
+}

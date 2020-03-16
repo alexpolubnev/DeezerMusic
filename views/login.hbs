@@ -1,0 +1,17 @@
+<div class="login-content"> 
+  <h2 class="title">Log in</h2>
+  {{#if error}}
+  <h3 class="error">Неверный логин или пароль</h3>
+  {{/if}}
+<form class="login" action="/login" method="POST">
+  <div class="login-div">
+    <label for="exampleInputEmail1">Login: </label>
+    <input name="login" type="login" class="content-input">
+  </div>
+  <div class="login-div">
+    <label for="exampleInputPassword1">Password: </label>
+    <input name="password" type="password" class="content-input">
+  </div>
+  <button type="submit" class="btn btn-outline-primary login-button">Login</button>
+</form>
+</div>

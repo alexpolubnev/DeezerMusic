@@ -1,0 +1,33 @@
+{
+  "name": "mymusic",
+  "version": "1.0.0",
+  "description": "**MyMusic** - Агрегатор авторских программ под любые задачи и интересы. Вы можете заниматься личностным ростом, спортом, пробовать новые хобби, найти интенсив своей мечты, одним словом формировать новые полезные для себя привычки. У каждого есть возможность загрузить на сервис свою собственную программу. ## Скриншоты ![Страница авторизации](/preview_1.png) ![Список целей пользователя](/preview_2.png) ![Подробная информация о цели](/preview_3.png) ![Светлая тема](/preview_4.png) ![Темная тема](/preview_5.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && npx nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpolubnev/DeezerMusic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexpolubnev/DeezerMusic/issues"
+  },
+  "homepage": "https://github.com/alexpolubnev/DeezerMusic#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "express-session": "^1.15.6",
+    "hbs": "^4.1.0",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.9.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.2",
+    "method-override": "^3.0.0",
+    "node-fetch": "^2.3.0"
+  }
+}

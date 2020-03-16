@@ -1,0 +1,17 @@
+<div class="login-content">
+  <h2 class="title">Registration</h2>
+  {{#if error}}
+  <h3 class="error">Данный логин уже занят</h3>
+  {{/if}}
+<form class="login" action="/registration" method="POST">
+  <div class="login-div">
+    <label for="exampleInputEmail1">Login: </label>
+    <input name="login" type="login" class="content-input">
+  </div>
+  <div class="login-div">
+    <label for="exampleInputPassword1">Password: </label>
+    <input name="password" type="password" class="content-input">
+  </div>
+  <button type="submit" class="btn btn-outline-primary login-button">Registration</button>
+</form>
+</div>

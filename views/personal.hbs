@@ -1,0 +1,18 @@
+  <h2 class="hello">Здравствуйте, {{user}}</h2>
+<div class="content">
+
+{{#each playList}}
+    <div class="column column-track">
+      <a href="/track/{{id}}"class="column-title">{{title_short}}</a>
+      <a class="column-play" href="#">Play<audio><source src="{{preview}}"</audio></a></span>
+      <span class="column-time">Длительность: {{duration}}</span>
+      <span>Исполнитель: </span> <a class="column-track-artist" href="/artist/{{artist.id}}"> {{artist.name}}</a>
+
+      <span>Альбом: </span> <a class="column-track-album" href="/album/{{album.id}}"> {{album.title}}</a>
+      <a href="https://www.deezer.com/track/{{id}}" class="listen">Полная версия</a>
+    </div>
+{{/each}}
+</div>
+
+
+
