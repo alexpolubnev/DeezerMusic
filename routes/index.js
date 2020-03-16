@@ -9,7 +9,7 @@ const Users = require('../models/users');
 router.get("/", function(req, res) {
   res.redirect("/main");
 });
-router.get("/main", function(req, res) {
+router.get("/main", function(req, res) { 
   res.render("index");
 });
 
