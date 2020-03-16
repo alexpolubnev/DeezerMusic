@@ -1,4 +1,4 @@
-## [MyMusic](https://MyMusic.herokuapp.com/)
+## [MyMusic](https://my-music-deezer.herokuapp.com/main)
 **MyMusic** - Онлайн сервис для создания личных плейлистов. На сайте вы можете найти интересующие вас треки через поиск по библиотеке треков сервиса Deezer, а так же добавить треки в свой личных кабинет.
 ## Скриншоты
 ![Gif](/public/gif)
