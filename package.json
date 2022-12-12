@@ -20,7 +20,7 @@
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.15.6",
     "hbs": "^4.1.0",
     "http-errors": "~1.6.3",
